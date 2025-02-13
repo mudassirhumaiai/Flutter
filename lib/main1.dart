@@ -28,6 +28,37 @@ class SubscriptionScreen extends StatelessWidget {
           },
         ),
         title: Text("Subscriptions"),
+        actions: [
+          TextButton(
+            onPressed: () {},
+            child: Text(
+              "SIGN UP",
+              style: TextStyle(
+                fontSize: 16,
+                color: const Color.fromARGB(255, 0, 0, 0),
+              ),
+            ),
+          ),
+          SizedBox(width: 10),
+          ElevatedButton(
+            onPressed: () {},
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.blue,
+              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8),
+              ),
+            ),
+            child: Text(
+              "LOGIN",
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.white,
+              ),
+            ),
+          ),
+          SizedBox(width: 10),
+        ],
       ),
       body: Center(
         child: Padding(
