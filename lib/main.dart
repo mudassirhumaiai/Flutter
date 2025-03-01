@@ -1,3 +1,8 @@
+// Flutter application for Hupply
+// Branch: my_room
+// Author: mudassirhumaiai
+// Date: 2023
+
 import 'package:flutter/material.dart';
 import 'widgets/nav_bar.dart';
 import 'widgets/sidebar.dart';
@@ -20,7 +25,6 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         canvasColor: Colors.white,
         colorScheme: ColorScheme.fromSwatch().copyWith(
-          background: Colors.white,
           surface: Colors.white,
         ),
       ),
